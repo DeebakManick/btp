@@ -16,7 +16,7 @@
       </headerToolbar>
     <columns>
     <Column width="10rem">
-        <Text text="material mas"/>
+        <Text text="material mass"/>
      </Column>
      <Column>
         <Text text="material Name"/>
