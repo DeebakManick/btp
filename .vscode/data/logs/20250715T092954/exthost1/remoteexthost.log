@@ -1,0 +1,2 @@
+2025-07-15 09:30:10.829 [error] Error: EEXIST: file already exists, open '/home/user/.vscode/data/User/workspaceStorage/-74b3db96/vscode.lock'
+2025-07-15 10:30:21.199 [error] Request timed out

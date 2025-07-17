@@ -1,0 +1,54 @@
+<mvc:View controllerName="assessment1.controller.Assessment1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <NavContainer id="navContainer">
+        <!-- Page 1: Material List -->
+        <Page id="page1" title="Materials">
+            <Table id="VendorId" items="{mat>/}" mode="SingleSelectLeft">
+                <columns>
+                    <Column><Text text="Material ID"/></Column>
+                    <Column><Text text="Material Name"/></Column>
+                    <Column><Text text="Description"/></Column>
+                    <Column><Text text="UoM"/></Column>
+                    <Column><Text text="Current Stock"/></Column>
+                </columns>
+                <items>
+                    <ColumnListItem type="Navigation" press="onProductRowPress">
+                        <cells>
+                            <Text text="{mat>materialId}" />
+                            <Text text="{mat>materialName}" />
+                            <Text text="{mat>description}" />
+                            <Text text="{mat>unitOfMeasure}" />
+                            <ObjectStatus text="{mat>currentStock}" state="{=${mat>currentStock} >= 100 ? 'Success' : 'Error'}"/>
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </Page>
+
+        <!-- Page 2: Vendor List -->
+        <Page id="page2" title="Vendors for Selected Material" showNavButton="true" navButtonPress="onNavBack">
+            <Table id="VendorTable" items="{selectedMaterial>/vendors}">
+                <columns>
+                    <Column><Text text="Vendor ID"/></Column>
+                    <Column><Text text="Vendor Name"/></Column>
+                    <Column><Text text="Contact Person"/></Column>
+                    <Column><Text text="Email"/></Column>
+                    <Column><Text text="Phone"/></Column>
+                </columns>
+                <items>
+                    <ColumnListItem>
+                        <cells>
+                            <Text text="{selectedMaterial>vendorId}" />
+                            <Text text="{selectedMaterial>vendorName}" />
+                            <Text text="{selectedMaterial>contactPerson}" />
+                            <Text text="{selectedMaterial>email}" />
+                            <Text text="{selectedMaterial>phone}" />
+                        </cells>
+                    </ColumnListItem>
+                </items>
+            </Table>
+        </Page>
+
+    </NavContainer>
+</mvc:View>

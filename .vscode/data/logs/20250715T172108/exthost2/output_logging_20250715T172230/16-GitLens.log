@@ -1,0 +1,20 @@
+GitLens v16.2.1 activating in SAP Business Application Studio (1.99.3) on the web; language='en', logLevel='warn', defaultDateLocale='null' (fa048590-322f-4df0-b1d7-1af6af77a467|79ca48a2-b05a-44d8-8da5-cb3a1baaac7a1752600153520)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2025-07-15 17:22:40.596] [GIT          ] [/home/user/assessment1] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [10ms]
+
+[2025-07-15 17:22:41.607] [GIT          ] [/home/user/assessment1] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [4ms]
+
+[2025-07-15 17:22:46.032] [GIT          ] [/home/user/assessment1] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [4ms]
+
+[2025-07-15 17:23:53.764] [GIT          ] [/home/user/assessment1/webapp/view] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [22ms]
+
+[2025-07-15 17:24:07.320] [GIT          ] [/home/user/assessment1/webapp] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [8ms]
+
+[2025-07-15 17:24:45.344] [GIT          ] [/home/user/assessment1/webapp/view] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [7ms]
+
+[2025-07-15 17:25:15.748] [GIT          ] [/home/user/assessment1/webapp/controller] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [11ms]
+
+[2025-07-15 17:28:08.995] [GIT          ] [/home/user/assessment1/webapp/controller] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [7ms]
+
+[2025-07-15 17:34:58.851] [GIT          ] [/home/user/assessment1/webapp/model] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [9ms]
+

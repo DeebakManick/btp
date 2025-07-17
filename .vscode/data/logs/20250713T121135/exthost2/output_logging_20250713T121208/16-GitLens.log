@@ -1,0 +1,12 @@
+GitLens v16.2.1 activating in SAP Business Application Studio (1.99.3) on the web; language='en', logLevel='warn', defaultDateLocale='null' (fa048590-322f-4df0-b1d7-1af6af77a467|22633ad3-2c65-4ac3-b639-60ca1c43e0a31752408728048)
+To enable debug logging, set `"gitlens.outputLevel": "debug"` or run "GitLens: Enable Debug Logging" from the Command Palette
+[2025-07-13 12:12:22.006] [GIT          ] [/home/user/productlist] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [11ms]
+
+[2025-07-13 12:12:22.773] [GIT          ] [/home/user/productlist/webapp/view] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [7ms]
+
+[2025-07-13 12:12:23.024] [GIT          ] [/home/user/productlist] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [7ms]
+
+[2025-07-13 12:12:26.896] [GIT          ] [/home/user/.vscode/data/Machine] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [51ms]
+
+[2025-07-13 12:12:30.542] [GIT          ] [/home/user/productlist] git rev-parse --show-toplevel • Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). [7ms]
+

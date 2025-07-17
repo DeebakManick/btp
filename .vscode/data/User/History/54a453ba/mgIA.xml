@@ -1,0 +1,52 @@
+<mvc:View controllerName="assessment1.controller.Assessment1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+     <Table id="ProductId" items="{/materials}" mode="SingleSelectLeft">
+    <headerToolbar>
+         <Toolbar>
+            <content>
+            <Title text="Product Table"/>
+            <ToolbarSpacer/>
+            <SearchField width="20%" change="onSearch"/>      
+            <Button icon="sap-icon://sort" press="onSortPress"/>    
+              <Button icon="sap-icon://add" press="onAddProductPress"/>
+               <Button icon="sap-icon://edit" press="onEditProductPress"/>
+            </content>
+         </Toolbar>
+      </headerToolbar>
+    <columns>
+    <Column width="10rem">
+        <Text text="material Id"/>
+     </Column>
+     <Column>
+        <Text text="material Name"/>
+     </Column>
+     <Column>
+        <Text text="material type"/>
+     </Column>
+     <Column>
+        <Text text="unit of measure"/>
+     </Column>
+     <Column>
+        <Text text="current stock"/>
+    
+    
+    </columns>
+    <items>
+        <ColumnListItem type="Navigation" press="onProductRowPress">
+        <cells>
+        <Text text="{material_id}"/>
+        <Text text="{material_name}"/>
+        <Text text="{material_type}"/>
+        <Text text="{unit_of_measure}"/>
+        <Text text="{current_stock}"/>
+       
+    <ObjectStatus text="{Status}" state="{=${Status} === 'Active' ? 'Success' : 'Error'}"/>
+     <Button icon="sap-icon://delete" press="onDeleteProductPress"/>
+        </cells>
+        </ColumnListItem>
+    </items>
+    </Table>
+    </Page>
+</mvc:View>

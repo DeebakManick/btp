@@ -1,0 +1,30 @@
+2025-07-13 06:59:38.540 [error] Error: EEXIST: file already exists, open '/home/user/.vscode/data/User/workspaceStorage/38a4b6f4/vscode.lock'
+2025-07-13 06:59:38.545 [error] Error: EEXIST: file already exists, open '/home/user/.vscode/data/User/workspaceStorage/38a4b6f4-1/vscode.lock'
+2025-07-13 06:59:52.590 [error] Error: listen EADDRINUSE: address already in use :::8888
+	at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+	at listenInCluster (node:net:1946:12)
+	at Server.listen (node:net:2044:7)
+	at Function.listen (/extbin/local/openvscode-server/extensions/vscode-webide-adapter/dist/extension.js:52462:24)
+	at startWattServer (/extbin/local/openvscode-server/extensions/vscode-webide-adapter/dist/extension.js:133234:32)
+	at activate (/extbin/local/openvscode-server/extensions/vscode-webide-adapter/dist/extension.js:131801:58)
+	at Uw.kb (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:115:15216)
+	at Uw.jb (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:115:14923)
+	at file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:115:13081
+	at async cw.n (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:111:13359)
+	at async cw.m (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:111:13322)
+	at async cw.l (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:111:12778)
+2025-07-13 06:59:52.591 [error] Error: listen EADDRINUSE: address already in use :::3001
+	at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+	at listenInCluster (node:net:1946:12)
+	at Server.listen (node:net:2044:7)
+	at w.listen (/extbin/local/openvscode-server/extensions/vscode-wing-expose-router-ports-2.4.7-release/bundle/extension.js:2:91515)
+	at /extbin/local/openvscode-server/extensions/vscode-wing-expose-router-ports-2.4.7-release/bundle/extension.js:2:561430
+	at /extbin/local/openvscode-server/extensions/vscode-wing-expose-router-ports-2.4.7-release/bundle/extension.js:2:561563
+	at t.activate (/extbin/local/openvscode-server/extensions/vscode-wing-expose-router-ports-2.4.7-release/bundle/extension.js:2:561566)
+	at Uw.kb (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:115:15216)
+	at Uw.jb (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:115:14923)
+	at file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:115:13081
+	at async cw.n (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:111:13359)
+	at async cw.m (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:111:13322)
+	at async cw.l (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:111:12778)
+2025-07-13 07:59:52.285 [error] Request timed out

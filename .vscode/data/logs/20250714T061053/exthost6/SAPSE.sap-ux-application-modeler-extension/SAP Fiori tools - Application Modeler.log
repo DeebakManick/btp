@@ -1,0 +1,7 @@
+2025-07-14 10:08:42.366 [error] Error getting config for project '/home/user/assessment1'. [SyntaxError: Expected double-quoted property name in JSON at position 1169
+	at JSON.parse (<anonymous>)
+	at readJSON (/extbin/local/openvscode-server/extensions/sap-ux-application-modeler-extension-1.18.2/dist/extension-min.js:34:15723)
+	at async generateSapuxConfig (/extbin/local/openvscode-server/extensions/sap-ux-application-modeler-extension-1.18.2/dist/extension-min.js:1236:8656)
+	at async generateConfig (/extbin/local/openvscode-server/extensions/sap-ux-application-modeler-extension-1.18.2/dist/extension-min.js:4031:47812)
+	at async onWebappChanged (/extbin/local/openvscode-server/extensions/sap-ux-application-modeler-extension-1.18.2/dist/extension-min.js:4031:48890)]
+2025-07-14 10:08:42.366 [error] Error writing config to manifest and changes for /home/user/assessment1. Error was:  'Error: SyntaxError: Expected double-quoted property name in JSON at position 1169'

@@ -1,0 +1,7 @@
+<mvc:View controllerName="productlist.productlist.controller."
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="productDetail" title="Product Detail Page"product
+     showNavButton="true" navButtonPress="onNavigationBack">
+    </Page>
+</mvc:View>

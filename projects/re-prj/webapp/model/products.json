@@ -1,0 +1,70 @@
+{
+    "ProductCollection": [
+      {
+        "ProductId": "RF-1001",
+        "Name": "Royal Paint Glossy",
+        "SupplierName": "Royal Coatings",
+        "Width": "30",
+        "Depth": "20",
+        "Height": "10",
+        "DimUnit": "cm",
+        "WeightMeasure": 2.4,
+        "WeightUnit": "kg",
+        "Price": 1200,
+        "CurrencyCode": "INR"
+      },
+      {
+        "ProductId": "RF-1002",
+        "Name": "Royal Cement Pack",
+        "SupplierName": "Royal Infrastructure",
+        "Width": "40",
+        "Depth": "25",
+        "Height": "15",
+        "DimUnit": "cm",
+        "WeightMeasure": 5.8,
+        "WeightUnit": "kg",
+        "Price": 480,
+        "CurrencyCode": "INR"
+      },
+      {
+        "ProductId": "RF-1003",
+        "Name": "Royal Steel Rod",
+        "SupplierName": "Royal Metals",
+        "Width": "100",
+        "Depth": "10",
+        "Height": "10",
+        "DimUnit": "cm",
+        "WeightMeasure": 7.0,
+        "WeightUnit": "kg",
+        "Price": 950,
+        "CurrencyCode": "INR"
+      },
+      {
+        "ProductId": "RF-1004",
+        "Name": "Royal Wood Plank",
+        "SupplierName": "Royal Woods",
+        "Width": "200",
+        "Depth": "50",
+        "Height": "5",
+        "DimUnit": "cm",
+        "WeightMeasure": 6.5,
+        "WeightUnit": "kg",
+        "Price": 1150,
+        "CurrencyCode": "INR"
+      },
+      {
+        "ProductId": "RF-1005",
+        "Name": "Royal Tiles",
+        "SupplierName": "Royal Ceramics",
+        "Width": "60",
+        "Depth": "60",
+        "Height": "2",
+        "DimUnit": "cm",
+        "WeightMeasure": 3.0,
+        "WeightUnit": "kg",
+        "Price": 720,
+        "CurrencyCode": "INR"
+      }
+    ]
+  }
+  

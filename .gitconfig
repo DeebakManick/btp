@@ -1,0 +1,7 @@
+[credential]
+	helper = /home/user/.bas-git/bas-git-helper-init.sh
+[user]
+	email = deebakmanickam@laderatechnology.com
+	name = deebak m
+[init]
+	defaultBranch = main

@@ -1,0 +1,34 @@
+<mvc:View controllerName="reprj.controller.RoyalEnfield"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <List items="{/ProductCollection}" headerText="Products (List)">
+            <items>
+                <StandardListItem title="{ProductName}" description="{MaterialType}" info="{Price} {Currency}" />
+            </items>
+        </List>
+
+        <Table items="{/ProductCollection}" headerText="Product Details">
+            <columns>
+                <Column><Text text="ID" /></Column>
+                <Column><Text text="Name" /></Column>
+                <Column><Text text="Type" /></Column>
+                <Column><Text text="Supplier" /></Column>
+                <Column><Text text="Weight" /></Column>
+                <Column><Text text="Price" /></Column>
+            </columns>
+            <items>
+                <ColumnListItem>
+                    <cells>
+                        <Text text="{ProductId}" />
+                        <Text text="{ProductName}" />
+                        <Text text="{MaterialType}" />
+                        <Text text="{Supplier}" />
+                        <Text text="{Weight} {WeightUnit}" />
+                        <Text text="{Price} {Currency}" />
+                    </cells>
+                </ColumnListItem>
+            </items>
+        </Table>
+    </Page>
+</mvc:View>

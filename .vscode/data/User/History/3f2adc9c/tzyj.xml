@@ -1,0 +1,19 @@
+<mvc:View controllerName="productlist.productlist.controller.productDetailPage"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="productDetail" title="Product Detail Page"
+     showNavButton="true" navButtonPress="onNavigationBack">
+     <f:SimpleForm>
+        <f:content>
+            <Label text="Product Name"/>
+            <Input value="{productDetailModel>/ProductName}"/>
+            <Label text="Product Description"/>
+            <Input value="{productDetailModel>/ProductDescription}"/>
+            <Label text="Location"/>
+            <Input value="{productDetailModel>/Location}"/>
+            <Label text="Cost Center"/>
+            <Input value="{productDetailModel>/CostCenter}"/>
+        </f:content>
+    </f:SimpleForm>
+    </Page>
+</mvc:View>

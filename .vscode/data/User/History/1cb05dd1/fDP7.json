@@ -1,0 +1,34 @@
+{
+    "ProductCollection": [
+      {
+        "Name": "Pearson",
+        "Quantity": 25,
+        "status" : "Active"
+      },
+      {
+        "Name": "Johnson",
+        "Quantity": 12,
+        "status" : "Active"
+      },
+      {
+        "Name": "Himalaya",
+        "Quantity": 40,
+        "status" : "Active"
+      },
+      {
+        "Name": "ABB",
+        "Quantity": 8,
+        "status" : "Active"
+      },
+      {
+        "Name": "Dove",
+        "Quantity": 30,
+        "Status" : "Active"
+      }
+    ]
+
+    
+  }
+
+  
+  

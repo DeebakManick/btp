@@ -1,0 +1,18 @@
+<mvc:View controllerName="projectproduct.project1.controller.productlist"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+  <List
+		headerText="Products"
+		headerLevel="H2"
+		items="{
+			path: '/ProductCollection'
+		}" >
+		<StandardListItem
+			title="{Name}"
+			counter="{Quantity}"
+			/>
+			<ObjectStatus text="{Status}" state="{=${Status} === 'Active' ? 'Success' : 'Error'}"/>
+	</List>
+    </Page>
+</mvc:View>

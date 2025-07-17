@@ -1,0 +1,32 @@
+   create ../../../home/user/assessment1/.gitignore
+   create ../../../home/user/assessment1/package.json
+   create ../../../home/user/assessment1/ui5-local.yaml
+   create ../../../home/user/assessment1/ui5.yaml
+   create ../../../home/user/assessment1/webapp/Component.js
+   create ../../../home/user/assessment1/webapp/index.html
+   create ../../../home/user/assessment1/webapp/manifest.json
+   create ../../../home/user/assessment1/webapp/i18n/i18n.properties
+   create ../../../home/user/assessment1/webapp/model/models.js
+   create ../../../home/user/assessment1/webapp/controller/App.controller.js
+   create ../../../home/user/assessment1/webapp/css/style.css
+   create ../../../home/user/assessment1/webapp/view/App.view.xml
+   create ../../../home/user/assessment1/webapp/view/Assessment1.view.xml
+   create ../../../home/user/assessment1/webapp/controller/Assessment1.controller.js
+   create ../../../home/user/assessment1/webapp/test/integration/AllJourneys.js
+   create ../../../home/user/assessment1/webapp/test/integration/NavigationJourney.js
+   create ../../../home/user/assessment1/webapp/test/integration/arrangements/Startup.js
+   create ../../../home/user/assessment1/webapp/test/integration/opaTests.qunit.html
+   create ../../../home/user/assessment1/webapp/test/integration/opaTests.qunit.js
+   create ../../../home/user/assessment1/webapp/test/integration/pages/App.js
+   create ../../../home/user/assessment1/webapp/test/integration/pages/Assessment1.js
+   create ../../../home/user/assessment1/webapp/test/unit/AllTests.js
+   create ../../../home/user/assessment1/webapp/test/unit/controller/Assessment1.controller.js
+   create ../../../home/user/assessment1/webapp/test/unit/unitTests.qunit.html
+   create ../../../home/user/assessment1/webapp/test/unit/unitTests.qunit.js
+   create ../../../home/user/assessment1/webapp/test/testsuite.qunit.js
+   create ../../../home/user/assessment1/webapp/test/testsuite.qunit.html
+   create ../../../home/user/assessment1/README.md
+   create ../../../home/user/assessment1/.appGenInfo.json
+          
+No change to package.json was detected. No package manager install will be executed.
+   create ../../../home/user/assessment1/.vscode/launch.json

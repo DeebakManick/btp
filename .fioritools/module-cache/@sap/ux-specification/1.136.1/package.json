@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@sap/ux-specification": "^1.136.1"
+  }
+}

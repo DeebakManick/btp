@@ -1,0 +1,25 @@
+{
+    "ProductCollection": [
+      {
+        "Name": "Pearson",
+        "Quantity": 25
+      },
+      {
+        "Name": "Johnson",
+        "Quantity": 12
+      },
+      {
+        "Name": "Himalaya",
+        "Quantity": 40
+      },
+      {
+        "Name": "ABB",
+        "Quantity": 8
+      },
+      {
+        "Name": "Dove",
+        "Quantity": 30
+      }
+    ]
+  }
+  

@@ -1,0 +1,17 @@
+<mvc:View controllerName="projectproduct.project1.controller.productlist"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+ <headerToolbar>
+         <Toolbar>
+            <content>
+            <Title text="Product Table"/>
+            <ToolbarSpacer/>
+            <SearchField width="20%" liveChange="onSearchProducts"/>
+               
+            </content>
+         </Toolbar>
+      </headerToolbar>
+	  
+    </Page>
+</mvc:View>

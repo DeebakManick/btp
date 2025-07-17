@@ -1,0 +1,35 @@
+<mvc:View controllerName="taskbtp.taskbtp.controller.TaskBtp"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+
+<List
+	headerText="Products"
+	items="{/Products}">
+	<ObjectListItem
+		title="{title}"
+		type="Active"
+		press="onListItemPress"
+		number="{number}"
+		numberUnit="{numberUnit}">
+		<firstStatus>
+			<ObjectStatus
+				text="{statusText}"
+				state="{statusState}" />
+		</firstStatus>
+		<ObjectAttribute text="{weight}" />
+		<ObjectAttribute text="{dimensions}" />
+		<markers>
+			<ObjectMarker
+				type="{= ${markers}[0] }" />
+			<ObjectMarker
+				type="{= ${markers}[1] }" />
+			<ObjectMarker
+				type="{= ${markers}[2] }" />
+		</markers>
+	</ObjectListItem>
+</List>
+
+
+    </Page>
+</mvc:View>

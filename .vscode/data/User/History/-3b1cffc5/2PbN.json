@@ -1,0 +1,25 @@
+{
+    "ProductCollection": [
+      {
+        "ProductId": "RF-MAT-001",
+        "ProductName": "Royal Paint Glossy",
+        "MaterialType": "Liquid",
+        "Supplier": "Royal Field Coatings Ltd.",
+        "Weight": "2.5",
+        "WeightUnit": "L",
+        "Price": 1500,
+        "Currency": "INR"
+      },
+      {
+        "ProductId": "RF-MAT-002",
+        "ProductName": "Royal Cement Pack",
+        "MaterialType": "Solid",
+        "Supplier": "Royal Field Infrastructure",
+        "Weight": "50",
+        "WeightUnit": "kg",
+        "Price": 350,
+        "Currency": "INR"
+      }
+    ]
+  }
+  

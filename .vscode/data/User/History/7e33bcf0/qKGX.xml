@@ -1,0 +1,21 @@
+<mvc:View controllerName="taskbtp.taskbtp.controller.productDetailPage"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form"
+    >
+    <Page id="productDetail" title="Product Detail Page"
+     showNavButton="true" navButtonPress="onNavigationBack">
+     <f:SimpleForm>
+        <f:content>
+            <Label text="title"/>
+            <Input value="{productDetailModel>/title}"/>
+            <Label text="Price"/>
+            <Input value="{productDetailModel>/number}"/>
+            <Label text="statusText"/>
+            <Input value="{productDetailModel>/statusText}"/>
+            <Label text="Dimensions"/>
+            <Input value="{productDetailModel>/dimensions}"/>
+        </f:content>
+    </f:SimpleForm>
+    </Page>
+</mvc:View>

@@ -1,0 +1,49 @@
+<mvc:View controllerName="taskbtp.taskbtp.controller.TaskBtp"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+
+<List id="RoyalEnfield"
+	headerText="Products"
+	items="{/Products}" mode="SingleSelectLeft">
+
+    <headerToolbar>
+		<Toolbar>
+			<Title text="Product List"/>
+			<ToolbarSpacer/>
+			<SearchField width="20%" change="onSearch" placeholder="Search Products..."/>
+			 <Button icon="sap-icon://arrow-bottom" press="onAscending"/>   
+			 <Button icon="sap-icon://arrow-top" press="onDescending"/>
+			 <Button icon="sap-icon://add" press="onAddProductPress"/>
+			 <Button icon="sap-icon://edit" press="onEditProductPress"/>
+			<Button icon="sap-icon://delete" press="onDeleteProductPress"/>
+		</Toolbar>
+	</headerToolbar>
+	<ObjectListItem
+		title="{title}"
+		type="Active"
+		press="onListItemPress"
+		number="{number}"
+		numberUnit="{numberUnit}"
+		>
+		<firstStatus>
+			<ObjectStatus
+				text="{statusText}"
+				state="{statusState}" />
+		</firstStatus>
+		<ObjectAttribute text="{weight}" />
+		<ObjectAttribute text="{dimensions}" />
+		<markers>
+			<ObjectMarker
+				type="{= ${markers}[0] }" />
+			<ObjectMarker
+				type="{= ${markers}[1] }" />
+			<ObjectMarker
+				type="{= ${markers}[2] }" />
+		</markers>
+	</ObjectListItem>
+</List>
+
+
+    </Page>
+</mvc:View>

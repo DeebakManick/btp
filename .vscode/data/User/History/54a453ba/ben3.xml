@@ -1,0 +1,42 @@
+<mvc:View controllerName="assessment1.controller.Assessment1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+     <Table id="ProductId" items="{/materials}" mode="SingleSelectLeft" itemPress="onProductRowPress">
+
+    <columns>
+    <Column width="10rem">
+        <Text text="material Id"/>
+     </Column>
+     <Column>
+        <Text text="material Name"/>
+     </Column>
+     <Column>
+        <Text text="material type"/>
+     </Column>
+     <Column>
+        <Text text="unit of measure"/>
+     </Column>
+     <Column>
+        <Text text="current stock"/>
+     </Column>
+    </columns>
+    <items>
+        <ColumnListItem  type="Active">
+        <cells>
+        <Text text="{materialId}"/>
+        <Text text="{materialName}"/>
+        <Text text="{description}"/>
+        <Text text="{unitOfMeasure}"/>
+    
+    <ObjectStatus text="{current_stock}" state="{=${current_stock} >= 500 ? 'Success' : 'Error'}"/>
+   
+        </cells>
+        </ColumnListItem>
+    </items>
+    </Table>
+
+     
+
+    </Page>
+</mvc:View>

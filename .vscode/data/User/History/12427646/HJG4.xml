@@ -1,0 +1,9 @@
+<mvc:View controllerName="taskbtp.taskbtp.controller.TaskBtp"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+
+
+    
+    </Page>
+</mvc:View>

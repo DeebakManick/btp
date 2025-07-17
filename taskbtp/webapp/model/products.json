@@ -1,0 +1,106 @@
+{
+    "Products": [
+      {
+        "title": "Royal Enfield Classic 350",
+        "number": 198000,
+        "numberUnit": "INR",
+        "statusText": "In Stock",
+        "statusState": "Success",
+        "c": "195 kg",
+        "dimensions": "2160 x 790 x 1090 mm",
+        "markers": ["Favorite", "Flagged"]
+      },
+      {
+        "title": "Meteor 350 Supernova",
+        "number": 210000,
+        "numberUnit": "INR",
+        "statusText": "Available",
+        "statusState": "Success",
+        "weight": "191 kg",
+        "dimensions": "2140 x 845 x 1140 mm",
+        "markers": ["Favorite"]
+      },
+      {
+        "title": "Interceptor 650 Twin",
+        "number": 309000,
+        "numberUnit": "INR",
+        "statusText": "Limited Stock",
+        "statusState": "Warning",
+        "weight": "202 kg",
+        "dimensions": "2122 x 789 x 1165 mm",
+        "markers": ["Flagged"]
+      },
+      {
+        "title": "Royal Enfield Riding Jacket",
+        "number": 7499,
+        "numberUnit": "INR",
+        "statusText": "New",
+        "statusState": "None",
+        "weight": "1.5 kg",
+        "dimensions": "Standard M",
+        "markers": ["Favorite", "Unsaved"]
+      },
+      {
+        "title": "Riding Gloves Full Gauntlet",
+        "number": 2499,
+        "numberUnit": "INR",
+        "statusText": "Out of Stock",
+        "statusState": "Error",
+        "weight": "300 g",
+        "dimensions": "Medium Size",
+        "markers": ["Locked"]
+      },
+      {
+        "title": "Classic Helmet Matt Black",
+        "number": 4999,
+        "numberUnit": "INR",
+        "statusText": "Available",
+        "statusState": "Success",
+        "weight": "1.2 kg",
+        "dimensions": "L Size",
+        "markers": ["Favorite", "Draft"]
+      },
+      {
+        "title": "Motorcycle Saddle Bag",
+        "number": 5999,
+        "numberUnit": "INR",
+        "statusText": "Hot Deal",
+        "statusState": "Success",
+        "weight": "2.0 kg",
+        "dimensions": "30 x 25 x 20 cm",
+        "markers": ["Favorite"]
+      },
+      {
+        "title": "Royal Enfield Chain Lubricant",
+        "number": 350,
+        "numberUnit": "INR",
+        "statusText": "Low Stock",
+        "statusState": "Warning",
+        "weight": "200 ml",
+        "dimensions": "Standard Can",
+        "markers": ["Flagged"]
+      },
+      {
+        "title": "Bike Cover All-Weather",
+        "number": 1499,
+        "numberUnit": "INR",
+        "statusText": "Available",
+        "statusState": "Success",
+        "weight": "800 g",
+        "dimensions": "Universal Fit",
+        "markers": ["Locked"]
+      },
+      {
+        "title": "Air Filter for Classic 350",
+        "number": 599,
+        "numberUnit": "INR",
+        "statusText": "Discontinued",
+        "statusState": "Error",
+        "weight": "250 g",
+        "dimensions": "OEM Size",
+        "markers": ["Draft", "Locked"]
+      }
+    ]
+  }
+  
+  

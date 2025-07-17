@@ -1,0 +1,28 @@
+<mvc:View controllerName="assessment1.controller.productDetailPage"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    >
+    <Page id="productDetail" title="Product Detail Page"
+     showNavButton="true" navButtonPress="onNavigationBack">
+     
+     <List 
+        id="idVendorsList"
+        headerText="Vendor List"
+        items="{
+            path: 'matdisp>/'
+        }" >
+        <headerToolbar>
+         <Toolbar>
+            <content>
+            <Title text=" "/>
+            <ToolbarSpacer/>
+            <SearchField width="20%" change="onSearch"/>      
+            </content>
+         </Toolbar>
+      </headerToolbar>
+        <StandardListItem type= "Navigation" press="onVendorDetailpage"
+            title="Vendor Name:{matdisp>vendorName}"
+            description="Contact Person:{matdisp>contactPerson}"/>
+    </List>
+    </Page>
+</mvc:View>

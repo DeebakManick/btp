@@ -1,0 +1,6 @@
+2025-07-11 12:30:51.982 [error] Error while starting preview. Details:  [Error: AggregateError
+	at getPreviewUrlParts (/extbin/local/openvscode-server/extensions/sap-ux-application-modeler-extension-1.18.2/dist/extension-min.js:4055:9915)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async startAndLaunch (/extbin/local/openvscode-server/extensions/sap-ux-application-modeler-extension-1.18.2/dist/extension-min.js:4055:24972)
+	at async /extbin/local/openvscode-server/extensions/sap-ux-application-modeler-extension-1.18.2/dist/extension-min.js:4055:26628
+	at async vw.h (file:///extbin/local/openvscode-server/out/vs/workbench/api/node/extensionHostProcess.js:111:41495)]

@@ -1,0 +1,47 @@
+<mvc:View controllerName="assessment1.controller.Assessment1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+     <Table id="ProductId" items="{mat>/}" mode="SingleSelectLeft" >
+     <headerToolbar>
+         <Toolbar>
+            <content>
+            <Title text="Product Table"/>
+            <ToolbarSpacer/>   
+            <Button icon="sap-icon://sort" press="onSortPress"/>    
+              <Button icon="sap-icon://add" press="onAddProductPress"/>
+               <Button icon="sap-icon://edit" press="onEditProductPress"/>
+            </content>
+         </Toolbar>
+      </headerToolbar>
+    <columns>
+    <Column width="10rem">
+        <Text text="material Id"/>
+     </Column>
+     <Column>
+        <Text text="material Name"/>
+     </Column>
+     <Column>
+        <Text text="description"/>
+     </Column>
+     <Column>
+        <Text text="unit of measure"/>
+     </Column>
+     <Column>
+        <Text text="current stock"/>
+     </Column>   
+    </columns>
+    <items>
+        <ColumnListItem  type="Navigation" press="onProductRowPress">
+        <cells>
+        <Text text="{mat>materialId}"/>
+        <Text text="{mat>materialName}"/>
+        <Text text="{mat>description}"/>
+        <Text text="{mat>unitOfMeasure}"/>
+       <ObjectStatus text="{mat>currentStock}" state="{=${mat>currentStock} >= 100 ? 'Success' : 'Error'}"/>
+        </cells>
+        </ColumnListItem>
+    </items>
+    </Table>
+    </Page>
+</mvc:View>

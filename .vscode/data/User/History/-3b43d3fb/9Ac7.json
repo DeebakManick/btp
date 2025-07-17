@@ -1,0 +1,45 @@
+{
+    "Products": [
+      {
+        "title": "Gladiator MX",
+        "number": 87.5,
+        "numberUnit": "EUR",
+        "statusText": "Available",
+        "statusState": "Success",
+        "weight": "125 g",
+        "dimensions": "145 x 140 x 360 cm",
+        "markers": ["Favorite", "Flagged"]
+      },
+      {
+        "title": "Hurricane GX",
+        "number": 235,
+        "numberUnit": "EUR",
+        "statusText": "Out of stock",
+        "statusState": "Warning",
+        "weight": "34 g",
+        "dimensions": "45 x 14 x 36 cm",
+        "markers": ["Flagged", "Locked"]
+      },
+      {
+        "title": "Power Projector 4713",
+        "number": 135,
+        "numberUnit": "EUR",
+        "statusText": "Discontinued",
+        "statusState": "Error",
+        "weight": "67 g",
+        "dimensions": "425 x 35 x 30 cm",
+        "markers": ["Favorite", "Locked", "Draft"]
+      },
+      {
+        "title": "Webcam",
+        "number": 15,
+        "numberUnit": "EUR",
+        "statusText": "New",
+        "statusState": "None",
+        "weight": "67 g",
+        "dimensions": "15 x 15 x 10 cm",
+        "markers": ["Unsaved"]
+      }
+    ]
+  }
+  

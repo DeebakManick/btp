@@ -1,0 +1,14 @@
+2025-07-13 14:21:04 error   main: Missing i18n uri in manifest in /home/user/productlist/webapp/manifest.json. 
+Error in onManifestFileChanged: Error: Could not find service for file file:///home/user/productlist/webapp/manifest.json in the project!
+    at e.create (/extbin/local/openvscode-server/extensions/sap-ux-annotation-modeler-extension-1.18.2/dist/server.js:1404:81057)
+2025-07-13 14:21:04 error   main: Error while creating project context for file:///home/user/productlist/webapp/manifest.json: Error: Could not find service for file file:///home/user/productlist/webapp/manifest.json in the project! 
+Error in onManifestFileChanged: Error: Could not find service for file file:///home/user/productlist/webapp/manifest.json in the project!
+    at e.create (/extbin/local/openvscode-server/extensions/sap-ux-annotation-modeler-extension-1.18.2/dist/server.js:1404:81057)
+Error in onManifestFileChanged: Error: Could not find service for file file:///home/user/productlist/webapp/manifest.json in the project!
+    at e.create (/extbin/local/openvscode-server/extensions/sap-ux-annotation-modeler-extension-1.18.2/dist/server.js:1404:81057)
+Error in onManifestFileChanged: Error: Could not find service for file file:///home/user/productlist/webapp/manifest.json in the project!
+    at e.create (/extbin/local/openvscode-server/extensions/sap-ux-annotation-modeler-extension-1.18.2/dist/server.js:1404:81057)
+Error in onManifestFileChanged: Error: Could not find service for file file:///home/user/productlist/webapp/manifest.json in the project!
+    at e.create (/extbin/local/openvscode-server/extensions/sap-ux-annotation-modeler-extension-1.18.2/dist/server.js:1404:81057)
+Error in onManifestFileChanged: Error: Could not find service for file file:///home/user/productlist/webapp/manifest.json in the project!
+    at e.create (/extbin/local/openvscode-server/extensions/sap-ux-annotation-modeler-extension-1.18.2/dist/server.js:1404:81057)

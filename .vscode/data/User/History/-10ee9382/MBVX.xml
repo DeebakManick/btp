@@ -1,0 +1,20 @@
+<mvc:View controllerName="projectproduct.project1.controller.productlist"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+   <List items="{/Products}">
+    <items>
+        <CustomListItem>
+            <VBox>
+                <Text text="ID: {ProductId}" />
+                <Text text="Name: {ProductName}" />
+                <Text text="Description: {ProductDescription}" />
+                <Text text="Location: {Location}" />
+                <Text text="Cost Center: {CostCenter}" />
+            </VBox>
+        </CustomListItem>
+    </items>
+</List>
+
+    </Page>
+</mvc:View>
